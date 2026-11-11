@@ -2,10 +2,10 @@
 <html lang='zh-cn'>
 
 <head>
-    <title>柠缘 LemonFate</title>
+    <title>柠缘生电服 | LemonFate</title>
     <meta charset='Utf-8'>
-    <link rel='icon' href='./Images/LOGO.PNG' type='image/x-icon'>
-    <link rel='shortcut icon' href='./Images/LOGO.PNG' type='image/x-icon'>
+    <link rel='icon' href='./Images/Logo.png' type='image/x-icon'>
+    <link rel='shortcut icon' href='./Images/Logo.png' type='image/x-icon'>
     <link rel='stylesheet' href='./Index.css' type='text/css'>
 </head>
 
@@ -15,10 +15,10 @@
     <nav>
         <img src='./Images/Logo.png' draggable='false'>
         <div class='selection'>
-            <a href='#home'>主页</a>
-            <a href='#info'>简介</a>
-            <a href='#show'>展示</a>
-            <a href='#other'>其他</a>
+            <a scroll_target='#home'>主页</a>
+            <a scroll_target='#info'>简介</a>
+            <a scroll_target='#show'>展示</a>
+            <a scroll_target='#other'>其他</a>
             <!-- <a href=''>服内新闻</a> -->
             <!-- <a href=''>服内成员</a> -->
         </div>
@@ -30,9 +30,10 @@
                 <span class='text'>
                     <h1>柠缘服务器</h1>
                     <h2>LemonFate Minectaft Server</h3>
-                        <p>柠聚未来，缘梦热爱</p>
+                        <p>柠聚热爱，缘梦未来</p>
                         <a href='https://www.wjx.cn/vm/QD8YmvB.aspx'>加入我们</a>
                 </span>
+                <!-- <iframe src='' title='宣传视频'></iframe> -->
                 <iframe src='https://player.bilibili.com/player.html?bvid=BV11P4y1k7uM&autoplay=0&poster=1' title='宣传视频'></iframe>
                 <p id='tip'>上下滑动查看更多内容</p>
             </div>
@@ -48,14 +49,14 @@
         <section id='show'>
             <h1 class='title'>服务器 · 展示</h1>
             <div class='works'>
-                <a class='card' href='https://www.bilibili.com/video/BV17h4y1F7K9/'>
+                <a class='card' href='https://www.bilibili.com/video/BV17h4y1F7K9/' target='_blank'>
                     <span style='background-image: url(./Images/Machines/4.png);'></span>
                     <h1>樱花小屋</h1>
                     <p>建筑</p>
                     <p>作者 MaoCat_LF</p>
                     <p>实装 MaoCat_LF & LonelySail</p>
                 </a>
-                <a class='card' href=''>
+                <a class='card'>
                     <span style='background-image: url(./Images/Machines/3.png);'></span>
                     <h1>双模式刷石机</h1>
                     <p>效率 16w</p>
@@ -77,7 +78,7 @@
                     <p>实装 LonelySail</p>
                 </a>
             </div>
-            <a href='' id='more'>查看更多作品</a>
+            <a id='more'>查看更多作品</a>
         </section>
         <section id='other'>
             <!-- <h1 class='title'>服务器 · 留言</h1>
@@ -90,16 +91,28 @@
                     <span><img src='http://lemonfate.cn:8123/tiles/faces/32x32/MaoCat_LF.png'>MaoCat_LF</span>
                     <span><img src='http://lemonfate.cn:8123/tiles/faces/32x32/LonelySail.png'>LonelySail</span>
                 </div>
-                <a href='https://afdian.com/a/lemonfate'>赞助我们</a>
+                <a href='https://afdian.net/a/lemonfate'>赞助我们</a>
             </div>
         </section>
     </main>
     <footer>
-        <div class='title'>鸣谢</div>
-        <span>部署 by ljieshuo</span>
-        <span>代码 by LonelySail</span>
-        <span>设计 by MaoCat_LF</span>
+        <section id='thank'>
+            <div class='title'>鸣谢</div>
+            <span>部署 by ljieshuo</span>
+            <span>代码 by LonelySail</span>
+            <span>设计 by MaoCat_LF</span>
+        </section>
+        <section id='account'>
+            <div class='title'>联系方式</div>
+            <a href='https://afdian.com/a/lemonfate' target='_blank'>
+                <img src='https://static.afdiancdn.com/favicon.ico' draggable='false'>爱发电
+            </a>
+            <a href='https://space.bilibili.com/3493081101895703' target='_blank'>
+                <img src='https://www.bilibili.com/favicon.ico' draggable='false'>哔哩哔哩
+            </a>
+        </div>
     </footer>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"1c94a08817674f70b420d94d1df5c184","r":1,"spa":2}' crossorigin="anonymous"></script>
 </body>
 <script src='./Index.js'></script>
 
