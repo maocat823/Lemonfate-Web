@@ -1,2 +1,2 @@
-# Lemonfate-Web
-Lemonfate的网站
+# Web
+Lemonfate Minecraft Server's Web
